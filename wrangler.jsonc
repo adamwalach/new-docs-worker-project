@@ -5,10 +5,7 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "new-docs-worker-project",
-	"compatibility_date": "2025-06-20",
-	"assets": {
-		"directory": "./build"
-	},
+	"compatibility_date": "2025-06-20",	
 	"observability": {
 		"enabled": true
 	},
@@ -39,7 +36,7 @@
 	 * Static Assets
 	 * https://developers.cloudflare.com/workers/static-assets/binding/
 	 */
-	"assets": { "directory": "./src/static/", "binding": "ASSETS" }
+	"assets": { "directory": "./src/static/" }
 
 	/**
 	 * Service Bindings (communicate between multiple Workers)
