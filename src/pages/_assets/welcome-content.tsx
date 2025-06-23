@@ -17,7 +17,7 @@ export const identityManagement: {
         "Enable and customize email, username, or phone-based password login",
       language: "auth",
       languageLogoAlt: "Authentication icon",
-      docs: "/docs/kratos/concepts/credentials/username-email-password",
+      docs: "/kratos/concepts/credentials/username-email-password",
     },
     {
       title: "Enable passkeys",
@@ -25,7 +25,7 @@ export const identityManagement: {
         "Allow secure login using biometric authentication (fingerprint, face) with industry-standard WebAuthn support",
       language: "fingerprint",
       languageLogoAlt: "Passkey icon",
-      docs: "/docs/kratos/passwordless/passkeys",
+      docs: "/kratos/passwordless/passkeys",
     },
     {
       title: "Enable OTP via email or SMS",
@@ -33,14 +33,14 @@ export const identityManagement: {
         "Implement a simple two-step verification process with one-time codes sent to users' email or phone",
       language: "otp",
       languageLogoAlt: "OTP icon",
-      docs: "/docs/kratos/passwordless/one-time-code",
+      docs: "/kratos/passwordless/one-time-code",
     },
     {
       title: "Add social sign-in",
       description: "Connect with Google, GitHub, Facebook and other providers",
       language: "social",
       languageLogoAlt: "Social login icon",
-      docs: "/docs/kratos/social-signin/overview",
+      docs: "/kratos/social-signin/overview",
     },
     {
       title: "Verify user identities",
@@ -48,21 +48,21 @@ export const identityManagement: {
         "Email verification, phone verification, and account activation",
       language: "verify",
       languageLogoAlt: "Verification icon",
-      docs: "/docs/kratos/self-service/flows/verify-email-account-activation",
+      docs: "/kratos/self-service/flows/verify-email-account-activation",
     },
     {
       title: "Manage user sessions",
       description: "Control login sessions, timeouts, and multi-device access",
       language: "session",
       languageLogoAlt: "Session icon",
-      docs: "/docs/kratos/session-management/overview",
+      docs: "/kratos/session-management/overview",
     },
     {
       title: "Support multi-factor authentication",
       description: "Add TOTP, WebAuthn, or SMS verification",
       language: "shield",
       languageLogoAlt: "MFA icon",
-      docs: "/docs/kratos/mfa/overview",
+      docs: "/kratos/mfa/overview",
     },
     {
       title: "Enable enterprise SSO login",
@@ -70,7 +70,7 @@ export const identityManagement: {
         "Group users by organization and support B2B enterprise SSO with OIDC or SAML",
       language: "organization",
       languageLogoAlt: "Organization icon",
-      docs: "/docs/kratos/organizations",
+      docs: "/kratos/organizations",
     },
   ],
 }
@@ -91,7 +91,7 @@ export const authorizationSecurity: {
       description: "Add authorization code, client credentials, or other flows",
       language: "oauth",
       languageLogoAlt: "OAuth icon",
-      docs: "/docs/oauth2-oidc/authorization-code-flow",
+      docs: "/oauth2-oidc/authorization-code-flow",
     },
 
     {
@@ -99,7 +99,7 @@ export const authorizationSecurity: {
       description: "Issue, validate, and revoke access credentials",
       language: "token",
       languageLogoAlt: "Token icon",
-      docs: "/docs/guides/token-management",
+      docs: "/guides/token-management",
     },
     {
       title: "Secure APIs",
@@ -107,14 +107,14 @@ export const authorizationSecurity: {
         "Protect your backend services with token-based authentication",
       language: "api",
       languageLogoAlt: "API icon",
-      docs: "/docs/getting-started/ory-network-oauth2#authorization-code-grant",
+      docs: "/getting-started/ory-network-oauth2#authorization-code-grant",
     },
     {
       title: "Connect service accounts",
       description: "Enable machine-to-machine authentication",
       language: "service",
       languageLogoAlt: "Service account icon",
-      docs: "/docs/oauth2-oidc/client-credentials",
+      docs: "/oauth2-oidc/client-credentials",
     },
   ],
 }
@@ -135,7 +135,7 @@ export const permissionManagement: {
       description: "Verify if users can perform specific actions",
       language: "permission",
       languageLogoAlt: "Permission icon",
-      docs: "/docs/keto/guides/simple-access-check-guide",
+      docs: "/keto/guides/simple-access-check-guide",
     },
     // TODO: Add role-based access control after RBAC docs are updated
     // {
@@ -143,21 +143,21 @@ export const permissionManagement: {
     //   description: "Control access based on user roles and groups",
     //   language: "rbac",
     //   languageLogoAlt: "RBAC icon",
-    //   docs: "/docs/keto/guides/rbac",
+    //   docs: "/keto/guides/rbac",
     // },
     {
       title: "Build relationship-based permissions",
       description: "Advanced access control for complex scenarios",
       language: "relationship",
       languageLogoAlt: "Relationship icon",
-      docs: "/docs/keto/modeling/create-permission-model",
+      docs: "/keto/modeling/create-permission-model",
     },
     {
       title: "Write access policies",
       description: "Define, update and enforce permission rules",
       language: "policy",
       languageLogoAlt: "Policy icon",
-      docs: "/docs/keto/reference/ory-permission-language",
+      docs: "/keto/reference/ory-permission-language",
     },
   ],
 }
@@ -179,7 +179,7 @@ export const frontendFrameworks: {
         "Integrate authentication into your React + Vite application with Ory",
       language: "react",
       languageLogoAlt: "React logo",
-      docs: "/docs/getting-started/integrate-auth/react",
+      docs: "/getting-started/integrate-auth/react",
     },
     {
       title: "Next.js integration",
@@ -187,7 +187,7 @@ export const frontendFrameworks: {
         "Integrate authentication into your Next.js application with Ory",
       language: "nextjs",
       languageLogoAlt: "Next.js logo",
-      docs: "/docs/getting-started/integrate-auth/nextjs",
+      docs: "/getting-started/integrate-auth/nextjs",
     },
     {
       title: "Vue.js integration",
@@ -195,7 +195,7 @@ export const frontendFrameworks: {
         "Get started with Ory and Vue.js to protect a page with login",
       language: "vue",
       languageLogoAlt: "Vue.js logo",
-      docs: "/docs/getting-started/integrate-auth/vue",
+      docs: "/getting-started/integrate-auth/vue",
     },
   ],
 }
@@ -217,7 +217,7 @@ export const backendFrameworks: {
         "The Ory Node.js SDK allows you to integrate authentication into your Express.js application",
       language: "nodejs",
       languageLogoAlt: "Node logo",
-      docs: "/docs/getting-started/integrate-auth/expressjs",
+      docs: "/getting-started/integrate-auth/expressjs",
     },
     {
       title: "Go integration",
@@ -225,7 +225,7 @@ export const backendFrameworks: {
         "The Ory Go SDK allows you to easily integrate authentication into your Go application",
       language: "go",
       languageLogoAlt: "Go logo",
-      docs: "/docs/getting-started/integrate-auth/go",
+      docs: "/getting-started/integrate-auth/go",
     },
     {
       title: "Python integration",
@@ -255,14 +255,14 @@ export const deploymentOptions: {
         "Enterprise-grade support and features for self-hosted on-premise Ory deployments.",
       language: "ory",
       languageLogoAlt: "Enterprise icon",
-      docs: "/docs/self-hosted/oel/quickstart",
+      docs: "/self-hosted/oel/quickstart",
     },
     {
       title: "Open source",
       description: "Ory is open source. Run Ory on your own infrastructure.",
       language: "github",
       languageLogoAlt: "GitHub icon",
-      docs: "/docs/open-source",
+      docs: "/open-source",
     },
   ],
 }
