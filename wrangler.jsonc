@@ -36,7 +36,7 @@
 	 * Static Assets
 	 * https://developers.cloudflare.com/workers/static-assets/binding/
 	 */
-	"assets": { "directory": "./src/static/" }
+	"assets": { "directory": "./src/static/", "binding": "ASSETS" }
 
 	/**
 	 * Service Bindings (communicate between multiple Workers)
