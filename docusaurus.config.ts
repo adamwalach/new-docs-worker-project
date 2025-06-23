@@ -14,7 +14,7 @@ const config: Config = {
   title: "Ory",
   tagline: "Open Source Identity and Access Infrastructure",
   url: `https://new-docs-worker-project.adam-walach.workers.dev/`,
-  //baseUrl: "/",
+  baseUrl: "",
   favicon: "img/favico.png",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
