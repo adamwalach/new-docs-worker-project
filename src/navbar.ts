@@ -4,8 +4,8 @@ export const navbar: Navbar = {
   hideOnScroll: false,
   logo: {
     alt: "Ory",
-    src: `/docs/img/logos/logo-docs-2023-02-15.svg`,
-    srcDark: `/docs/img/logos/logo-docs-dark-2023-02-15.svg`,
+    src: `/img/logos/logo-docs-2023-02-15.svg`,
+    srcDark: `/img/logos/logo-docs-dark-2023-02-15.svg`,
     href: `https://www.ory.sh`,
     width: 63,
     height: 32,
@@ -21,27 +21,27 @@ export const navbar: Navbar = {
       position: "left",
       items: [
         {
-          to: "/docs/identities",
+          to: "/identities",
           label: "Ory Kratos Identities",
         },
         {
-          to: "/docs/oauth2-oidc",
+          to: "/oauth2-oidc",
           label: "Ory Hydra OAuth2",
         },
         {
-          to: "/docs/keto",
+          to: "/keto",
           label: "Ory Keto Permissions",
         },
         {
-          to: "/docs/polis",
+          to: "/polis",
           label: "Ory Polis SAML",
         },
         {
-          to: "/docs/oathkeeper",
+          to: "/oathkeeper",
           label: "Ory Oathkeeper Zero Trust",
         },
         {
-          to: "/docs/self-hosted/oel",
+          to: "/self-hosted/oel",
           label: "Ory Enterprise License",
         },
       ],
@@ -51,41 +51,41 @@ export const navbar: Navbar = {
       position: "left",
       items: [
         {
-          to: "/docs/guides/operations",
+          to: "/guides/operations",
           label: "Platform",
         },
         {
-          to: "/docs/category/troubleshooting",
+          to: "/category/troubleshooting",
           label: "Troubleshooting",
         },
         {
-          to: "/docs/security-compliance/compliance-and-certifications",
+          to: "/security-compliance/compliance-and-certifications",
           label: "Security and compliance",
         },
       ],
     },
     {
-      //   to: "/docs/reference/api",
-      //   to: "/docs/reference", // TODO: Use this route
+      //   to: "/reference/api",
+      //   to: "/reference", // TODO: Use this route
       label: "Reference",
       position: "left",
       items: [
         {
-          to: "/docs/reference/api",
+          to: "/reference/api",
           label: "REST API",
         },
         {
-          to: "/docs/category/ory-cli-reference",
+          to: "/category/ory-cli-reference",
           label: "Ory CLI",
         },
         {
-          to: "/docs/sdk",
+          to: "/sdk",
           label: "Ory SDKs",
         },
       ],
     },
     {
-      to: "/docs/ecosystem/projects",
+      to: "/ecosystem/projects",
       label: "Open Source",
       position: "left",
     },
@@ -98,7 +98,7 @@ export const navbar: Navbar = {
           label: "Enterprise Support",
         },
         {
-          to: "https://www.ory.sh/docs/search",
+          to: "https://www.ory.sh/search",
           label: "Search the docs",
         },
         {

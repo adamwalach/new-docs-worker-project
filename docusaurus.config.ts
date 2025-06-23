@@ -14,7 +14,7 @@ const config: Config = {
   title: "Ory",
   tagline: "Open Source Identity and Access Infrastructure",
   url: `https://new-docs-worker-project.adam-walach.workers.dev/`,
-  baseUrl: "/docs/",
+  baseUrl: "/",
   favicon: "img/favico.png",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -97,7 +97,7 @@ const config: Config = {
         },
         {
           label: "Search",
-          href: "https://www.ory.sh/docs/search/",
+          href: "https://www.ory.sh/search/",
         },
         {
           label: "Status",
@@ -125,7 +125,7 @@ const config: Config = {
       ] satisfies Preset.ThemeConfig["footer"]["links"],
       logo: {
         alt: "Ory logo in white",
-        src: "/docs/img/logos/logo-ory-white-2022-11-04.svg",
+        src: "/img/logos/logo-ory-white-2022-11-04.svg",
         href: "https://www.ory.sh/",
         height: 80,
         width: 130.7,
@@ -157,7 +157,7 @@ const config: Config = {
       {
         path: "docs",
         sidebarPath: require.resolve("./src/sidebar.ts"),
-        editUrl: `https://github.com/ory/docs/edit/master`,
+        editUrl: `https://github.com/ory/edit/master`,
         // editCurrentVersion: false,
         routeBasePath: "/",
         showLastUpdateAuthor: true,
@@ -224,7 +224,7 @@ const config: Config = {
       attributes: {
         rel: "stylesheet",
         type: "text/css",
-        href: "/docs/fonts/fonts.css",
+        href: "/fonts/fonts.css",
       },
     },
     ...[
@@ -238,14 +238,14 @@ const config: Config = {
         type: "font/woff2",
         as: "font",
         crossOrigin: "anonymous",
-        href: `/docs/fonts/${font.includes("Inter") ? "Inter" : "JetBrainsMono"}/${font}`,
+        href: `/fonts/${font.includes("Inter") ? "Inter" : "JetBrainsMono"}/${font}`,
       },
     })),
   ],
   scripts: [
     // Needed as a workaround for https://answers.netlify.com/t/trailing-slash-missing-on-proxied-netlify-site/36367
     {
-      src: "/docs/scripts/redirect.js",
+      src: "/scripts/redirect.js",
       async: true,
     },
     {

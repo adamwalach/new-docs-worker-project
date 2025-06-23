@@ -1165,7 +1165,7 @@ const opensource: SidebarItemsConfig = [
   {
     type: "link",
     label: "Search",
-    href: "https://www.ory.sh/docs/search",
+    href: "https://www.ory.sh/search",
   },
 ]
 
