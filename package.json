@@ -67,7 +67,8 @@
     "remark-admonitions": "1.2.1",
     "remarkable": "2.0.1",
     "semver": "7.6.0",
-    "util": "0.12.5"
+    "util": "0.12.5",
+    "wrangler": "^4.20.5"
   },
   "devDependencies": {
     "@playwright/test": "1.49.1",
